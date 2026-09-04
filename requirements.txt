@@ -1,0 +1,10 @@
+beautifulsoup4
+openpyxl
+pandas
+pdfplumber
+PyMuPDF
+PyPDF2
+requests
+selenium
+selenium-wire
+webdriver-manager
