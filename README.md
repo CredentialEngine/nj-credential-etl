@@ -1,4 +1,16 @@
-# NJ Credential ETL
+# NJ Credential ETL (Prototype)
+
+> [!WARNING]
+> **Prototype for demonstration only. Not for production use.**
+>
+> This project is intended solely as a demonstration of the art of the possible. It is a prototype for exploring potential approaches and capabilities, not a production-ready application. The code has not been formally reviewed, tested, or vetted by Credential Engine for accuracy, security, reliability, or suitability for implementation.
+>
+> In particular:
+> - These are **one-off scripts** written for each college's website or catalog at the time of the run. They will need changes if a source changes.
+> - Most scripts **hardcode absolute Windows paths** and won't run elsewhere without editing (see [Known limitation](#️-known-limitation-hardcoded-local-paths)).
+> - Some steps have several numbered variants kept for reference, and **not all of them are meant to be run**.
+> - There is **no automated test suite**.
+> - Every bulk upload file **must be reviewed by a person** before it is published to the Registry.
 
 Scripts for extracting and transforming credential, course, and competency
 data from New Jersey community college websites and PDF catalogs, and
